@@ -1,0 +1,2 @@
+# bakadvert
+Advertisements are bakas.
