@@ -21,8 +21,9 @@
 ||zen.yandex.ru^$xhr,important
 ||mail.yandex.ru/u2709/*$script,important
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_single_column_no.media-grid_theme_white.media-grid_visible_yes.media-grid
-yandex.ru##pjtr
 yandex.ru##.home-link_gray_yes.b-sethome.home-link
+yandex.ru##.headline__bar.headline__item
+yandex.ru##pjtr
 mail.yandex.ru##.PSHeader-Pro
 mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
 mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
