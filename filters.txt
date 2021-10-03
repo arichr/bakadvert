@@ -31,6 +31,17 @@ mail.yandex.ru##.mail-App-Footer-Group_wide.mail-App-Footer-Group_journal.mail-A
 mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
 mail.yandex.ru##.PSHeader-Pro
 
+! Yandex.Images
+
+yandex.ru##.polaroid2__actions
+yandex.ru##.polaroid2__meta
+yandex.ru##.MMViewerButtons-Inline
+yandex.ru##.MediaViewer-LayoutSceneControls
+yandex.ru##.ExtraLinks
+yandex.ru##.MMViewerButtons_view_compact.MMViewerButtons
+! TODO: XHR?
+yandex.ru##.ImagesViewerApp-FooterContent
+
 ! Main page
 
 ||avatars.mds.yandex.net/get-ynews-logo/*
@@ -44,6 +55,17 @@ yandex.ru##.desk-notif-card__link
 yandex.ru##.headline__bar.headline__item
 yandex.ru##.kinopoisk_js_inited
 yandex.ru##.news_js_inited
+
+! Search page
+
+yandex.ru##.promo-popup__content
+yandex.ru##.market-cart__wrapper
+yandex.ru##.serp-footer__search-settings
+yandex.ru##.serp-footer__main
+yandex.ru##.competitors
+yandex.ru##.WizardHeader-Extra
+yandex.ru##.extralinks-popup.Extralinks-Popup
+yandex.ru##.show-feedback.Extralinks-Item_feedback
 
 ! Etc.
 
