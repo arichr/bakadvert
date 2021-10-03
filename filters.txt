@@ -2,7 +2,7 @@
 ! Version: 202118032218
 ! Title: Bakadvert
 ! Last modified: 03 Oct 2021 22:18 JST
-! Expires: 1 year (update frequency)
+! Expires: 1 week (update frequency)
 ! License: https://mit-license.org/
 ! Please report any unblocked content or problems by email or in our forums
 ! Email: arisuchr@riseup.net
