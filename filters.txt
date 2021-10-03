@@ -1,0 +1,29 @@
+[Adblock Plus 2.0]
+! Version: 202118032218
+! Title: Bakadvert
+! Last modified: 03 Oct 2021 22:18 JST
+! Expires: 1 year (update frequency)
+! License: http://creativecommons.org/licenses/by/3.0/
+! Please report any unblocked content or problems by email or in our forums
+! Email: arisuchr@riseup.net
+! Homepage: https://baka.arisuchr.ml/
+! Forums: https://github.com/arichr/bakadvert/discussions
+! 
+!--------------------------------------------------------------------!
+!  ---------------------------- Yandex ----------------------------  !
+!--------------------------------------------------------------------!
+||yastatic.net/naydex/zen-yandex-ru/*$domain=yandex.ru,important
+||strm.yandex.ru/probe/*$important
+||strm-ams05.strm.yandex.net/vod/zen-vod/*$domain=yandex.ru,important
+||push.yandex.ru^$important
+||avatars.mds.yandex.net/get-zen-logos/*$important
+||zen.yandex.ru^$1p,important
+||zen.yandex.ru^$xhr,important
+||mail.yandex.ru/u2709/*$script,important
+yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_single_column_no.media-grid_theme_white.media-grid_visible_yes.media-grid
+yandex.ru##pjtr
+yandex.ru##.home-link_gray_yes.b-sethome.home-link
+mail.yandex.ru##.PSHeader-Pro
+mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
+mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
+mail.yandex.ru##.mail-App-Footer-Group_wide.mail-App-Footer-Group_journal.mail-App-Footer-Group
