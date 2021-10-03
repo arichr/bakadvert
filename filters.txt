@@ -3,7 +3,7 @@
 ! Title: Bakadvert
 ! Last modified: 03 Oct 2021 22:18 JST
 ! Expires: 1 year (update frequency)
-! License: http://creativecommons.org/licenses/by/3.0/
+! License: https://mit-license.org/
 ! Please report any unblocked content or problems by email or in our forums
 ! Email: arisuchr@riseup.net
 ! Homepage: https://baka.arisuchr.ml/
