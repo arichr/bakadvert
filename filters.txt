@@ -2,8 +2,8 @@
 ! Version: 202118032218
 ! Title: Bakadvert
 ! Last modified: 03 Oct 2021 22:18 JST
-! Expires: 1 week (update frequency)
-! License: https://mit-license.org/
+! Expires: 4 days (update frequency)
+! License: https://creativecommons.org/licenses/by/4.0/
 ! Please report any unblocked content or problems by email or in our forums
 ! Email: arisuchr@riseup.net
 ! Homepage: https://baka.arisuchr.ml/
@@ -20,6 +20,9 @@
 ||zen.yandex.ru^$1p,important
 ||zen.yandex.ru^$xhr,important
 ||mail.yandex.ru/u2709/*$script,important
+||yandex.ru/clck/*
+||push.yandex.ru^$domain=mail.yandex.ru
+||mail.yandex.ru/web-api/journal/*
 yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_single_column_no.media-grid_theme_white.media-grid_visible_yes.media-grid
 yandex.ru##.home-link_gray_yes.b-sethome.home-link
 yandex.ru##.headline__bar.headline__item
