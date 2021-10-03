@@ -4,40 +4,58 @@
 ! Last modified: 03 Oct 2021 22:18 JST
 ! Expires: 4 days (update frequency)
 ! License: https://creativecommons.org/licenses/by/4.0/
-! Please report any unblocked content or problems by email or in our forums
+! Please report any unblocked content or problems by Issues or Discussions
 ! Email: arisuchr@riseup.net
 ! Homepage: https://baka.arisuchr.ml/
-! Forums: https://github.com/arichr/bakadvert/discussions
+! Discussions: https://github.com/arichr/bakadvert/discussions
 ! 
 !--------------------------------------------------------------------!
 !  ---------------------------- Yandex ----------------------------  !
 !--------------------------------------------------------------------!
-||portal-xiva.yandex.net^
-||yabs.yandex.ru/count/*$important
-||yastatic.net/naydex/zen-yandex-ru/*$domain=yandex.ru
-||yastatic.net/s3/home/covid/*
-||strm.yandex.ru/probe/*
+
+! Yandex.Zen
+
 ||strm-ams05.strm.yandex.net/vod/zen-vod/*$domain=yandex.ru
+||yastatic.net/naydex/zen-yandex-ru/*$domain=yandex.ru
+||avatars.mds.yandex.net/get-zen-logos/*
+||zen.yandex.ru^$xhr,important
+||zen.yandex.ru^$1p,important
+yandex.ru##.media-grid_js_inited
+
+! Yandex.Mail
+
+||mail.yandex.ru/u2709/*$script,important
+||mail.yandex.ru/web-api/journal/*
+mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
+mail.yandex.ru##.mail-App-Footer-Group_wide.mail-App-Footer-Group_journal.mail-App-Footer-Group
+mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
+mail.yandex.ru##.PSHeader-Pro
+
+! Main page
+
 ||avatars.mds.yandex.net/get-ynews-logo/*
 ||avatars.mds.yandex.net/get-banana/*
 ||avatars.mds.yandex.net/get-ott/*
-||push.yandex.ru^$important
-||avatars.mds.yandex.net/get-zen-logos/*
-||zen.yandex.ru^$1p,important
-||zen.yandex.ru^$xhr,important
-||mail.yandex.ru/u2709/*$script,important
+||yandex.ru/suggest/ad-rerequest-ya.cgi
+yandex.ru##.desk-notif-card_plus-wallet_yes
+yandex.ru##.desk-notif-card_covid_yes
+yandex.ru##.b-sethome.home-link
+yandex.ru##.desk-notif-card__link
+yandex.ru##.headline__bar.headline__item
+yandex.ru##.kinopoisk_js_inited
+yandex.ru##.news_js_inited
+
+! Etc.
+
+! Don't use Yandex as a primary search engine
+! Alternatives: cs.majenta.ru, nigma.net.ru, duckduckgo.com, etc.
+||yandex.ru/opensearch.xml
+! Disable relevant notifications (except Yandex.Mail)
+||push.yandex.ru^
+@@||push.yandex.ru^$websocket,1p
+||yastatic.net/s3/home/covid/*
+||yabs.yandex.ru/count/*$important
+||portal-xiva.yandex.net^
+||strm.yandex.ru/probe/*
 ||yandex.ru/clck/*
 ||yandex.ru/bell/*
-||push.yandex.ru^$domain=mail.yandex.ru
-||mail.yandex.ru/web-api/journal/*
-yandex.ru##.media-grid_js_inited.font-regular.i-bem.media-grid_single_column_no.media-grid_theme_white.media-grid_visible_yes.media-grid
-yandex.ru##.home-link_gray_yes.b-sethome.home-link
-yandex.ru##.headline__bar.headline__item
-yandex.ru##.desk-notif-card__link.home-link
-yandex.ru##.desk-notif-card_plus-wallet_yes.desk-notif-card
-yandex.ru##.desk-notif-card_covid_yes.desk-notif-card__card
-yandex.ru##.kinopoisk_js_inited
-mail.yandex.ru##.PSHeader-Pro
-mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
-mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail-App-Footer-Group
-mail.yandex.ru##.mail-App-Footer-Group_wide.mail-App-Footer-Group_journal.mail-App-Footer-Group
