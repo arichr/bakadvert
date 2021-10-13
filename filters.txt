@@ -30,6 +30,7 @@ mail.yandex.ru##.mail-App-Footer-Group_reverse.mail-App-Footer-Group_narrow.mail
 mail.yandex.ru##.mail-App-Footer-Group_wide.mail-App-Footer-Group_journal.mail-App-Footer-Group
 mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
 mail.yandex.ru##.PSHeader-Pro
+mail.yandex.ru##.PSHeaderLogo360-360
 
 ! Yandex.Images
 
@@ -39,7 +40,6 @@ yandex.ru##.MMViewerButtons-Inline
 yandex.ru##.MediaViewer-LayoutSceneControls
 yandex.ru##.ExtraLinks
 yandex.ru##.MMViewerButtons_view_compact.MMViewerButtons
-! TODO: XHR?
 yandex.ru##.ImagesViewerApp-FooterContent
 
 ! Main page
@@ -69,13 +69,12 @@ yandex.ru##.show-feedback.Extralinks-Item_feedback
 
 ! Etc.
 
+! Pop-ups about new features
+yandex.ru##.Popup2_nonvisual.Popup2_target_anchor
 ! Don't use Yandex as a primary search engine
-! Alternatives: cs.majenta.ru, nigma.net.ru, duckduckgo.com, etc.
 ||yandex.ru/opensearch.xml
-! Disable relevant notifications (except Yandex.Mail)
-||push.yandex.ru^
-@@||push.yandex.ru^$websocket,1p
 ||yastatic.net/s3/home/covid/*
+! Telemetry & useless requests
 ||yabs.yandex.ru/count/*$important
 ||portal-xiva.yandex.net^
 ||strm.yandex.ru/probe/*
