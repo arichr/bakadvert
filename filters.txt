@@ -1,28 +1,31 @@
 [Adblock Plus 2.0]
-! Version: 202118032218
+! Version: 0.2.0+20222803
 ! Title: Bakadvert
-! Last modified: 03 Oct 2021 22:18 JST
-! Expires: 4 days (update frequency)
+! Description: Get rid of bakas in the Modern Web!
+! Last modified: 28 Mar 2022 19:18 JST
+! Expires: 30 days (update frequency)
 ! License: https://creativecommons.org/licenses/by/4.0/
-! Please report any unblocked content or problems by Issues or Discussions
 ! Email: arisuchr@riseup.net
-! Homepage: https://baka.arisuchr.ml/
-! Discussions: https://github.com/arichr/bakadvert/discussions
+! Homepage: https://github.com/arichr/bakadvert/
 ! 
 !--------------------------------------------------------------------!
 !  ---------------------------- Yandex ----------------------------  !
 !--------------------------------------------------------------------!
 
-! Yandex.Zen
+! Yandex.Disk !
+disk.yandex.ru##.Subscription-Onboarding-Root
+
+! Yandex.Zen !
 
 ||strm-ams05.strm.yandex.net/vod/zen-vod/*$domain=yandex.ru
 ||yastatic.net/naydex/zen-yandex-ru/*$domain=yandex.ru
 ||avatars.mds.yandex.net/get-zen-logos/*
 ||zen.yandex.ru^$xhr,important
 ||zen.yandex.ru^$1p,important
+@@||zen.yandex.ru^$domain=zen.yandex.ru
 yandex.ru##.media-grid_js_inited
 
-! Yandex.Mail
+! Yandex.Mail !
 
 ||mail.yandex.ru/u2709/*$script,important
 ||mail.yandex.ru/web-api/journal/*
@@ -32,7 +35,7 @@ mail.yandex.ru##.mail-App-Footer-Item_mobile_links.mail-App-Footer-Item
 mail.yandex.ru##.PSHeader-Pro
 mail.yandex.ru##.PSHeaderLogo360-360
 
-! Yandex.Images
+! Yandex.Images !
 
 yandex.ru##.polaroid2__actions
 yandex.ru##.polaroid2__meta
@@ -42,7 +45,7 @@ yandex.ru##.ExtraLinks
 yandex.ru##.MMViewerButtons_view_compact.MMViewerButtons
 yandex.ru##.ImagesViewerApp-FooterContent
 
-! Main page
+! Main page !
 
 ||avatars.mds.yandex.net/get-ynews-logo/*
 ||avatars.mds.yandex.net/get-banana/*
@@ -56,7 +59,7 @@ yandex.ru##.headline__bar.headline__item
 yandex.ru##.kinopoisk_js_inited
 yandex.ru##.news_js_inited
 
-! Search page
+! Search page !
 
 yandex.ru##.promo-popup__content
 yandex.ru##.market-cart__wrapper
@@ -67,16 +70,172 @@ yandex.ru##.WizardHeader-Extra
 yandex.ru##.extralinks-popup.Extralinks-Popup
 yandex.ru##.show-feedback.Extralinks-Item_feedback
 
-! Etc.
+! Etc. !
 
 ! Pop-ups about new features
 yandex.ru##.Popup2_nonvisual.Popup2_target_anchor
+
+! Product advertisements
+yandex.ru##.Tooltip-Content:contains(товар)
+
 ! Don't use Yandex as a primary search engine
 ||yandex.ru/opensearch.xml
+
 ||yastatic.net/s3/home/covid/*
+
 ! Telemetry & useless requests
 ||yabs.yandex.ru/count/*$important
 ||portal-xiva.yandex.net^
 ||strm.yandex.ru/probe/*
 ||yandex.ru/clck/*
 ||yandex.ru/bell/*
+
+!--------------------------------------------------------------------!
+!  ---------------------------- Nigma -----------------------------  !
+!--------------------------------------------------------------------!
+
+www.nigma.net.ru##table.popular div
+www.nigma.net.ru###torrentBannerWeb
+www.nigma.net.ru##.yandex_text
+www.nigma.net.ru##.logo_main
+www.nigma.net.ru###yandex > table
+www.nigma.net.ru###header_logo
+www.nigma.net.ru###footer
+www.nigma.net.ru###records
+www.nigma.net.ru##.ocvy_cont
+www.nigma.net.ru###content_left
+www.nigma.net.ru##div.ya-expansionArea:contains(google.com/)
+
+||www.nigma.net.ru/counter/*$image
+
+!--------------------------------------------------------------------!
+!  -------------------------- Anison.fm ---------------------------  !
+!--------------------------------------------------------------------!
+
+anison.fm##td > div:nth-of-type(4)
+anison.fm###listeners
+anison.fm##.fw > .listeners
+
+!--------------------------------------------------------------------!
+!  --------------------------- NMmapper ---------------------------  !
+!--------------------------------------------------------------------!
+
+||www.nmmapper.com/analytics.js
+||www.nmmapper.com/j/rrr/*
+
+!--------------------------------------------------------------------!
+!  ---------------------------- Disqus ----------------------------  !
+!--------------------------------------------------------------------!
+tv3.darklibria.it###disqus_thread
+
+!--------------------------------------------------------------------!
+!  ---------------------------- DeepL -----------------------------  !
+!--------------------------------------------------------------------!
+
+www.deepl.com###lmt_pro_ad_container
+www.deepl.com##.eSEOtericText
+www.deepl.com##.alternativeTranslationsTooltipAtTopBorder
+www.deepl.com##.lmt__translations_as_text__header
+www.deepl.com##.switchOption_module_switchOptionLabel__c8a45b24
+www.deepl.com##.lmt__rating-down
+www.deepl.com##.dl_pro__banner--header
+www.deepl.com###lmt_quotes_article
+www.deepl.com##.dl_footer
+www.deepl.com##.dl_header
+www.deepl.com##.lmt__glossary_button
+www.deepl.com##.lmt__target_toolbar__share
+www.deepl.com##.lmt__system_notification
+www.deepl.com##.dl_app_ad__container
+
+!--------------------------------------------------------------------!
+!  ----------------------------- Habr -----------------------------  !
+!--------------------------------------------------------------------!
+
+! Advertisement banners on Habr
+habr.com##[href^="https://selectel.ru/"]
+habr.com##.column-wrapper__last.column-wrapper > .sidebar_stick-top.sidebar
+habr.com##li.post-info.content-list__item_devided.content-list__item:-abp-contains(Мегапост)
+
+||effect.habr.com^
+
+!--------------------------------------------------------------------!
+!  --------------------------- Flaticon ---------------------------  !
+!--------------------------------------------------------------------!
+
+www.flaticon.com##.track.unicorn__link
+www.flaticon.com###viewport > .hide-mobile
+
+!--------------------------------------------------------------------!
+!  ------------------------- LiveJournal --------------------------  !
+!--------------------------------------------------------------------!
+
+||l-stat.livejournal.net^
+||livejournal.naydex.net^$domain=livejournal.com
+@@||livejournal.naydex.net^$stylesheet,domain=livejournal.com
+
+!--------------------------------------------------------------------!
+!  -------------------------- ProgLib.io --------------------------  !
+!--------------------------------------------------------------------!
+
+proglib.io###logo-brand
+proglib.io##.live
+proglib.io##.large-hide
+proglib.io##.telegram-btn
+proglib.io##label.mr-2.toggler:nth-of-type(1)
+
+!--------------------------------------------------------------------!
+!  ---------------------------- GitHub ----------------------------  !
+!--------------------------------------------------------------------!
+
+github.com##.unsupported-browser
+github.com##.position-relative.text-md-left.text-center.col-lg-6.col-12
+
+!--------------------------------------------------------------------!
+!  ------------------------- Anime booru --------------------------  !
+!--------------------------------------------------------------------!
+
+chan.sankakucomplex.com###headerthumbs
+chan.sankakucomplex.com###news-ticker
+
+!--------------------------------------------------------------------!
+!  ----------------------------- AWS ------------------------------  !
+!--------------------------------------------------------------------!
+
+eu-north-1.console.aws.amazon.com###console-nav-footer
+eu-north-1.console.aws.amazon.com##.awsui-util-spacing-v-m > div
+eu-north-1.console.aws.amazon.com##.awsui-app-layout__navigation-landmark > .awsui-app-layout__close-button
+
+!--------------------------------------------------------------------!
+!  -------------------- Unwanted connections ----------------------  !
+!--------------------------------------------------------------------!
+
+||bithash.us^
+||0redirc.com^
+||smotri.com^
+
+! Avoid sending your search queries to Google
+||suggestqueries.google.com^$important
+
+||track.onef.pro^
+
+!--------------------------------------------------------------------!
+!  ----------------------------- Etc. -----------------------------  !
+!--------------------------------------------------------------------!
+
+! With a changed User-Agent, you can get a button to download Firefox
+addons.mozilla.org##.GetFirefoxButton
+
+! Banners & sticky headers !
+securitytrails.com##.asrshdr.sticky-header
+text.ru##.exchange-banner
+text.ru###right-bar__banner
+stackoverflow.com##.js-consent-banner
+znanija.com##.js-react-below-answers
+english-abc.ru##[href="/sponsor"]
+darklibria.it###support_anilibria
+pcpartpicker.com##.banner--cw.banner
+##.cc-banner
+
+redirect.invidious.io##.story
+
+www.deepl.com###lmt_pro_ad_container
